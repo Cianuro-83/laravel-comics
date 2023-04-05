@@ -1,5 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
 
+// **************************
+// GENERAL
+// **************************
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+// **************************
+// HEADER
+// **************************
 header {
     .scb-container-top {
         display: flex;
@@ -31,6 +45,31 @@ header {
             border-bottom: 1px solid blue;
             width: 100px;
             text-align: end;
+        }
+    }
+}
+
+// **************************
+// HERO
+// **************************
+.hero {
+    margin: 0;
+    padding: 0;
+    img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 250px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .scb-container {
+        position: relative;
+
+        button {
+            position: absolute;
+            top: -20px;
+            left: 0;
         }
     }
 }
