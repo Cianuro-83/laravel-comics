@@ -1,1 +1,36 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+
+header {
+    .scb-container-top {
+        display: flex;
+        justify-content: end;
+    }
+    .scb-top {
+        font-size: 8px;
+    }
+    .logo-img,
+    .scb-search {
+        cursor: pointer;
+    }
+    img {
+        width: 40px;
+        margin-right: 40px;
+    }
+    a {
+        font-size: 12px !important;
+    }
+    .scb-search {
+        color: grey;
+        font-size: 10px;
+        img {
+            width: 15px;
+            margin-right: 0;
+        }
+        span {
+            display: inline-block;
+            border-bottom: 1px solid blue;
+            width: 100px;
+            text-align: end;
+        }
+    }
+}
