@@ -11,6 +11,12 @@
 img {
     max-width: 100%;
 }
+ul,
+ol,
+li {
+    text-decoration: none;
+    list-style: none;
+}
 // **************************
 // HEADER
 // **************************
@@ -57,8 +63,6 @@ header {
     padding: 0;
     img {
         width: 100%;
-        margin: 0;
-        padding: 0;
         height: 250px;
         object-fit: cover;
         object-position: top;
@@ -70,6 +74,86 @@ header {
             position: absolute;
             top: -20px;
             left: 0;
+        }
+    }
+}
+
+// **************************
+// FASCIA BULU
+// **************************
+.fasciaBlu {
+    margin: 0;
+    padding: 0;
+    background-color: #0182f9;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .li-blu {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+
+            .thumb {
+                width: 25px;
+                display: inline-block;
+                cursor: pointer;
+            }
+            p {
+                font-size: 12px;
+                padding-top: 15%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// **************************
+// UP FOOTER
+// **************************
+
+// **************************
+// LOWER FOOTER
+// **************************
+footer {
+    background-color: #303030;
+    color: white;
+    font-size: 12px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    div {
+        button {
+            line-height: 1.5rem;
+            padding: 5px 10px;
+            background-color: #303030;
+            color: white;
+            text-transform: uppercase;
+            border-color: #0182f9;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .follow-us {
+            color: #0182f9;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .social {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img {
+                width: 25px;
+            }
         }
     }
 }

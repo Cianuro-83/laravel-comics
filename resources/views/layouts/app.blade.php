@@ -22,8 +22,9 @@
         {{-- contenuto --}}
         @yield('content')
     </main>
-
-    @include('partials.footer')
+    @include('partials.fasciaBlu')
+    @include('partials.upFooter')
+    @include('partials.lowerFooter')
 </body>
 
 </html>

@@ -1,7 +1,3 @@
-<!-- <header>
-    <h1 class="text-uppercase">questa è l'header</h1>
-</header> -->
-
 <header>
     <div class="container-fluid bg-primary ">
         <div class="container scb-container-top">
