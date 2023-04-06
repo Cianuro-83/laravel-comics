@@ -53,7 +53,7 @@
                 </ul>
             </div>
             <div class="col-6">
-                jfoiewhiof
+                <img class="scb-logo" src="{{ Vite::asset ("resources/images/dc-logo-bg.png") }}" alt="">
             </div>
         </div>
         <div class="row">
