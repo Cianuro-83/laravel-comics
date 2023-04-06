@@ -112,7 +112,39 @@ header {
 // **************************
 // UP FOOTER
 // **************************
+.up-footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+        color: white;
+    }
 
+    .flex-up-footer {
+        display: flex;
+        gap: 30px;
+    }
+    .list-title {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .shop {
+        margin-top: 15px;
+    }
+    .list-items {
+        color: #807d7d;
+        padding-bottom: 8px;
+        &:hover {
+            color: white;
+            cursor: pointer;
+        }
+    }
+    .scb-cookies {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+}
 // **************************
 // LOWER FOOTER
 // **************************
