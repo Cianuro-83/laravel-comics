@@ -11,8 +11,8 @@
     </div>
     <div class="container flex">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="logo">
-                <img class="logo-img" src={{ Vite::asset ("resources/images/dc-logo.png") }} alt="" />
+            <div class="logo"> <a href="../"><img class="logo-img" src={{ Vite::asset ("resources/images/dc-logo.png") }} alt="" /></a>
+                
             </div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,31 +23,31 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">CHARACTERS </a>
+                        <a class="nav-link active" aria-current="page" href="../characters">CHARACTERS </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">COMICS</a>
+                        <a class="nav-link" href="../comic">COMICS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MOVIES</a>
+                        <a class="nav-link" href="../movies">MOVIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TV</a>
+                        <a class="nav-link" href="../tv">TV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GAMES</a>
+                        <a class="nav-link" href="../games">GAMES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">COLLECTIBLES</a>
+                        <a class="nav-link" href="../collectibles">COLLECTIBLES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">VIDEOS</a>
+                        <a class="nav-link" href="../video">VIDEOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FANS</a>
+                        <a class="nav-link" href="../fans">FANS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">NEWS</a>
+                        <a class="nav-link" href="../news">NEWS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

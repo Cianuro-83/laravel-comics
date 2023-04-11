@@ -244,3 +244,40 @@ Route::get('/', function () {
     ];
    return view('home', $data);
 });
+
+Route::get('/characters', function () {
+    return view('characters');
+});
+
+Route::get('/comic', function () {
+    return view('comic');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+
+Route::get('/tv', function () {
+    return view('tv');
+});
+
+Route::get('/games', function () {
+    return view('games');
+});
+
+Route::get('/collectibles', function () {
+    return view('collectibles');
+});
+
+Route::get('/video', function () {
+    return view('video');
+});
+
+Route::get('/fans', function () {
+    return view('fans');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
